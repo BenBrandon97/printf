@@ -13,7 +13,6 @@ int is_printable(char c)
 
 	return (0);
 }
-
 /**
  * append_hexa_code - Append ASCII in hexadecimal code to buffer
  * @buffer: Array of chars.
@@ -22,7 +21,6 @@ int is_printable(char c)
  *
  * Return: Always 3
  */
-
 int append_hexa_code(char ascii_code, char buffer[], int i)
 {
 	char map_to[] = "0123456789ABCDEF";
@@ -38,7 +36,6 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 	return (3);
 }
-
 /**
  * is_digit - Verifies if a char is a digit
  * @c: Char to be evaluated
@@ -52,7 +49,6 @@ int is_digit(char c)
 
 	return (0);
 }
-
 /**
  * convert_size_number - Casts a number to the specified size
  * @num: Number to be casted.
@@ -69,7 +65,6 @@ long int convert_size_number(long int num, int size)
 
 	return ((int)num);
 }
-
 /**
  * convert_size_unsgnd - Casts a number to the specified size
  * @num: Number to be casted
